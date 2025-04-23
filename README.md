@@ -75,7 +75,7 @@ npm install
 
 #### ⚙️ Configure MySQL
 
-- Create a MySQL database named `userdb`.
+- Create a MySQL database named `registration_app`.
 - Use this SQL to create the `users` table:
 
 ```sql
