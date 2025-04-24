@@ -43,7 +43,7 @@ user-registration-system/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - React (Vite)
 - Bootstrap 5
