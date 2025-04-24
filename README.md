@@ -2,7 +2,7 @@ Here's a complete `README.md` file for **User Registration System** project usin
 
 ---
 
-# 👥 User Registration System
+#  User Registration System
 
 This is a **Full Stack Web Application** that allows users to register and view all registered users in a table with options to **update** and **delete** users. The system is built using:
 
@@ -14,7 +14,7 @@ Responsive UI is powered by **Bootstrap**, and all API calls are handled using *
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 user-registration-system/
@@ -32,7 +32,7 @@ user-registration-system/
 
 ---
 
-## 🚀 Features
+## Features
 
 - Register new users
 - Display all users in a table and mobile-friendly card view
@@ -53,9 +53,9 @@ user-registration-system/
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
+###Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/user-registration-system.git
@@ -64,16 +64,16 @@ cd user-registration-system
 
 ---
 
-### 2️⃣ Setup Backend
+###  Setup Backend
 
-#### 📦 Install Dependencies
+#### Install Dependencies
 
 ```bash
 cd backend
 npm install
 ```
 
-#### ⚙️ Configure MySQL
+####  Configure MySQL
 
 - Create a MySQL database named `registration_app`.
 - Use this SQL to create the `users` table:
@@ -89,7 +89,7 @@ CREATE TABLE users (
 );
 ```
 
-#### ▶️ Start the Backend Server
+####  Start the Backend Server
 
 ```bash
 node server.js
@@ -99,16 +99,16 @@ The backend server will run on **http://localhost:5000**
 
 ---
 
-### 3️⃣ Setup Frontend
+###  Setup Frontend
 
-#### 📦 Install Dependencies
+#### Install Dependencies
 
 ```bash
 cd ../frontend
 npm install
 ```
 
-#### ▶️ Start the React App
+####  Start the React App
 
 ```bash
 npm run dev
@@ -118,7 +118,7 @@ The frontend will run on **http://localhost:5173**
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 - `GET    /api/users` → Fetch all users
 - `POST   /api/users` → Create new user
@@ -127,18 +127,18 @@ The frontend will run on **http://localhost:5173**
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 📝 User Registration Form - Desktop View
+###  User Registration Form - Desktop View
 ![Registration Form](./Screenshots/Registration_Form.png)
 
-### 💻 Registered Users - Desktop Table View
+### Registered Users - Desktop Table View
 ![Users Table Desktop](./Screenshots/Registered_Users.png)
 
-### 💻 CRUD operations - Desktop Table View
+### CRUD operations - Desktop Table View
 ![Users Table Desktop](./Screenshots/CRUD_Operations.png)
 
-### 📝 User Registration Form - Mobile Card View
+### User Registration Form - Mobile Card View
 ![Users Card Mobile](./Screenshots/RegistrationForm_Mobile_View.png)
 
 ### CRUD operations - Mobile Card View
@@ -148,7 +148,7 @@ The frontend will run on **http://localhost:5173**
 
 
 
-## 👩‍💻 Author
+## Author
 
 Developed by **Yeshita**
 
